@@ -1,0 +1,1936 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> 아우디 </title>
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/font.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/event.css">
+
+    <!--script type="text/javascript" src="$!{CON_STATIC_URL}/js/jquery-1.8.2.min.js" ></script-->
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/slick.min.js"></script>
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/d2FormUtilByJquery.js"></script>
+    <!-- <script type="text/javascript" src="../assets/js/jquery-3.1.1.min.js"></script> -->
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/slick.js"></script>
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/userAuth.js"></script>
+
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/VisitorAPI.js"></script>
+    <script type="text/javascript" src="//www.audikoreaevent.co.kr/resources/js/AppMeasurement.js"></script>
+
+    <!-- <script>
+    alert('시스템 점검안내\n\n- 점검일시: 2021년 7월 9일 오전 00시부터\n- 예상 소요시간: 6시간 내외\n\n시스템 점검으로 인해 서비스 이용이 중단될 수 있습니다.\n고객님의 양해 부탁 드립니다.\n감사합니다.');
+    location.href="https://www.audi.co.kr/kr/web/ko.html";
+    </script>
+     -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5XSM9WH');</script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'event':'defaultVariables',
+            'dimension1':'PC', //디바이스 구분 ex) PC / MO / APP
+            'dimension4':'/q4EtronPreorder.do', //url 내 페이지 구분 가능한 path ex) /applyTestdrive.do
+            'dimension5':undefined, //고객 로그인ID 번호 ex) 12345
+            'dimension6':undefined, //고객 출생년도 ex) 1990
+            'dimension7':undefined, //고객 성별 ex) F
+            'dimension8':undefined //고객이 보유 차량 ex) A6
+        });
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+            'event':'defaultVariables',
+            'dimension1':'PC', //디바이스 구분 ex) PC / MO / APP
+            'dimension4':'Q4 e-tron_preOrder' //AA 내 page 와 동일한 값
+        })
+    </script>
+
+
+</head>
+
+<body>
+<script language="JavaScript" type="text/javascript">
+
+    //날짜 스크립트 start
+    Date.prototype.format = function(f) {
+        if (!this.valueOf()) return " ";
+
+        var weekName = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
+        var d = this;
+
+        return f.replace(/(yyyy|yy|MM|dd|E|hh|mm|ss|a\/p)/gi, function($1) {
+            switch ($1) {
+                case "yyyy": return d.getFullYear();
+                case "yy": return (d.getFullYear() % 1000).zf(2);
+                case "MM": return (d.getMonth() + 1).zf(2);
+                case "dd": return d.getDate().zf(2);
+                case "E": return weekName[d.getDay()];
+                case "HH": return d.getHours().zf(2);
+                case "hh": return ((h = d.getHours() % 12) ? h : 12).zf(2);
+                case "mm": return d.getMinutes().zf(2);
+                case "ss": return d.getSeconds().zf(2);
+                case "a/p": return d.getHours() < 12 ? "am" : "pm";
+                default: return $1;
+            }
+        });
+    };
+
+    String.prototype.string = function(len){var s = '', i = 0; while (i++ < len) { s += this; } return s;};
+    String.prototype.zf = function(len){return "0".string(len - this.length) + this;};
+    Number.prototype.zf = function(len){return this.toString().zf(len);};
+    //날짜 스크립트 end
+    var pageLoadTime = "";
+    setTimeout(function() {
+        var perfData = window.performance.timing;
+        pageLoadTime = perfData.loadEventEnd - perfData.navigationStart; //페이지 전체 로드 완료시간..
+    }, 1500); //페이지 로드시간 체크
+    var hopCarNm = "";
+    var cDealerNm = "";
+
+    s.clearVars(); //s 변수를 초기화
+    var eventText = "event93=$!{lTime}ms"; // 이벤트 페이지 값 시간..
+
+    var pageName = "Q4 e-tron_preOrder";
+    s.pageName=pageName;
+    s.channel="Q4 e-tron_preOrder";
+    var channel = "Q4 e-tron_preOrder";
+    eventText += ", event106, event981";
+
+    s.pageName="Q4 e-tron_preOrder" //이대로 삽입해주시면 됩니다.
+    s.server="www.audikoreaevent.co.kr" //웹 페이지의 도메인으로, 이대로 삽입해주시면됩니다.
+    s.channel="Q4 e-tron_preOrder" //이대로 삽입해주시면 됩니다.
+    /* Traffic Variables */
+    s.prop2="D=v7" //현재 페이지의 제목(eVar7 과 동일). 이대로 삽입해주시면 됩니다.
+    s.prop4="D=v82" //클릭 이벤트 이름(eVar82 와 동일). 이대로 삽입해주시면 됩니다.
+    s.prop36="D=v50" //매개변수를 제외한 현재 페이지 URL(eVar50 과 동일). 이대로삽입해주시면 됩니다.
+    s.prop37="D=v33" //매개변수를 제외한 이전 페이지 URL(eVar33 과 동일). 이대로삽입해주시면 됩니다.
+    s.prop38="D=v38" //현재 페이지 이전에 본 페이지의 경로(eVar38 과 동일). 이대로삽입해주시면 됩니다.
+    s.prop48="D=v48" //방문한 페이지의 도메인도시언어사이트속성앱이름앱버전(eVar48 과 동일). 이대로 삽입해주시면 됩니다.
+
+    //시간 get
+    var _today = new Date().format("yyyy-MM-dd hh:mm a/p"); //55시간
+    var _todayTimeStamp = new Date().getTime(); //57시간
+    var currDate = new Date(); //현재시간
+    var utcDate2 = currDate.setHours(currDate.getHours() - 9); //UTC 시간 계산
+    var utcDate3 = new Date(utcDate2).format("hh:mm a/p"); // 결과
+    var localDate = new Date().format("hh:mm a/p");
+
+    s.prop55=_today; //이벤트가 발생한 날짜시간 ex) 2019-06-13 04:47 AM
+    s.prop56=utcDate3 + ", " + localDate; //이벤트가 발생한 UTCLocal 시간 ex) 7:00 AM;4:00 PM
+    s.prop57=_todayTimeStamp; //이벤트가 발생한 시간의 TimeStamp ex) 1560368871
+
+    if(navigator.doNotTrack == 1) {
+        s.prop74="dnt enabled"; //브라우저의 현재 Do Not Track(DNT)상태 ex)dnt disabled, dnt	error, dnt enabled
+    } else {
+        s.prop74="dnt disabled"; //브라우저의 현재 Do Not Track(DNT)상태 ex)dnt disabled, dnt	error, dnt enabled
+    }
+
+    /* Conversion Variables */
+    s.eVar1="1.00"; //방문한 페이지의 번호 ex)1.00, 2.00, 3.00..
+    s.eVar3="1"; //사이트 내에서 상호작용이 발생할 때마다 1 씩 증가 ex)1, 2, 3..
+    s.eVar5="Q4 e-tron|preOrder|no level|no level" //현재 페이지의 콘텐츠계층,최대 4 개 가능. 이대로 삽입해주시면 됩니다.
+    s.eVar6=document.location.href; //현재 페이지의 URL ex)https://www.audi.de/brand/de.html
+    s.eVar7="Q4 e-tron_preOrder > 아우디 코리아" //이대로 삽입해주시면 됩니다.
+    s.eVar9="preOrder" //현재 페이지의 유형 ex)standardPage, configurableHome
+    s.eVar15="Not Logged In"; //로그인 여부 ex)Logged In, Not Logged In
+    s.eVar32="D=r" //이전 페이지의 URL(referrer 값과 동일). 이대로 삽입해주시면 됩니다.10
+    s.eVar33=document.referrer.substring(0); //매개변수를 제외한 이전 페이지 URL(referrer 값에서 매개변수 값 제외)ex)https://search.naver.com/search.naver
+    s.eVar34="" //이전 페이지 URL 내 매개변수(referrer 값에서 매개변수 값 추출) ex)sm=top_hty&fbm=1&ie=utf8&query=아우디
+    s.eVar37="Q4 e-tron_preOrder" //현재 페이지 명(URL 기반). 이대로 삽입해주시면됩니다.
+    s.eVar38=document.referrer; //현재 페이지 이전에 본 페이지의 경로(URL 기반) ex)homepage,used/resultist
+    s.eVar39="" //이전 페이지의 콘텐츠 계층(이전 페이지의 eVar5) ex)models|models/a4|models/a4/a4limo|no level
+    s.eVar48="dom|www.audi.co.kr;cc|KR;lang|ko;sa|productportal;app|cms;ver|75.4.0" //방문한 페이지의 도메인도시언어사이트속성앱이름앱버전. 이대로 삽입해주시면 됩니다.
+    s.eVar50=document.location.href.substring(0, document.location.href.indexOf("?")); //매개변수를 제외한 현재 페이지 URL ex)www.audi.co.kr/kr/web/ko.html
+    s.eVar75="D=mid" //Adobe 에서 부여한 방문자의 Marketing Cloud Id. 이대로삽입해주시면 됩니다.
+    var eventAction = "page_load"; //액션마다 값 추가
+    var clickSeg = channel + "_request"; //채널 + 스텝
+    var clickUrl = document.location.href; //현재페이지 내에서 이벤트 발생
+    s.eVar81=eventAction; //이벤트 액션 이름(클릭 시) ex)page_load, internal_link ..
+    s.eVar83=clickSeg; //클릭상호 작용이 발생한 페이지의 전체 경로 또는 세분화된 식별값(클릭시)ex) homepage, models/q3/q3
+    s.eVar84=clickUrl; //클릭 이벤트가 발생한 페이지의 URL(도메인+경로이름)(클릭 시)ex)www.audi.co.kr/kr/web/ko.html
+    s.eVar85="" //사용자가 클릭 후 랜딩 되는 페이지의 URL(도메인+경로이름)(클릭 시) ex)www.audi.co.kr/kr/web/ko.html
+    s.eVar86="" //클릭한 요소의 텍스트 값(클릭시) ex)Your Audi A4, 자세히보기
+    s.eVar88="" //클릭한 요소의 정보(위치,이름,구성요소 이름,값)(클릭 시) ex)po|;en|;co|main-navigation;va|
+    s.eVar89="https://www.audikoreaevent.co.kr/lms/application/q4ReservationAjax.do";//사용자가 도달한 페이지의 전체 경로 또는 세분화된 식별 값 ex)homepage,models/q3/q3
+    if(document.referrer.indexOf("audi") <= -1){ // 이전페이지 audi 확인
+        eventText += ", event982";
+    }
+    s.events=eventText;
+    var s_code = s.t();
+    if(s_code){
+        document.write(s_code);
+    }
+
+    $(document).ready(function(){
+        if('$!{currentDate}' > '202508112130' && '$!{currentDate}' < '202508112230'){
+            alert('시스템 점검 중으로, 아래 시간동안 서비스 이용이 일시적으로 불안정할 수 있습니다. 이용에 참고 부탁드립니다.\n*점검시간: 8월11일(월) 오후 21:30~ 오후 22:30');
+            // location.href="https://www.audi.co.kr/kr/web/ko.html";
+        }
+
+        $(".slider").slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            infinite: true,
+            slidesToShow: 1,
+        });
+
+        $('.car-item a').each(function(){
+            if($(this).data('hopecarcd') == '$!{selectCar}'){
+                console.log($(this)[0]);
+                $(this)[0].click();
+                $('.car-slide .car-item').removeClass('select');
+                $(this).closest('.car-item').addClass('select');
+                $('#hopeCarCd').val($(this).data('hopecarcd'));
+            }
+        });
+
+        // 2024-01-24(s)
+        // 현재 보유 차량, 고려 차량 선택시 모델명 입력 가능
+        $("#selectCarBrand1").on("change", function () {
+            $("#carBrandNm").val('');
+            if ($(this).val() != 0 && $(this).val() != "NA") {
+                $("#carBrandNm").attr("disabled", false);
+            } else {
+                $("#carBrandNm").attr("disabled", true);
+            }
+        });
+        $("#selectCarBrand2").on("change", function () {
+            $("#considerCarModel").val('');
+            if ($(this).val() != 0 && $(this).val() != "NA") {
+                $("#considerCarModel").attr("disabled", false);
+            } else {
+                $("#considerCarModel").attr("disabled", true);
+            }
+        });
+        // 2024-01-24(e)
+
+        getCommonCode("AKE03006");
+        getCommonCode("AKE03007");
+    });
+</script>
+
+
+<script>
+    function layerPopUp(pOption) {
+        var lLayer = $(pOption.selId);
+        var lLayerBox = lLayer.find('.layer-wrap');
+        if (pOption.st !== 'close') {
+            lLayer.fadeIn();
+
+        } else {
+            lLayer.fadeOut();
+            //location.reload();
+        }
+
+        lLayer.find('.btn-close, .bg').click(function (e) {
+            e.preventDefault();
+            $(this).closest('.pop-layer').fadeOut();
+            //location.reload();
+        });
+
+    }
+
+    function layerPopUp2(pOption) {
+        var lLayer = $(pOption.selId);
+        var lLayerBox = lLayer.find('.layer-wrap');
+        if (pOption.st !== 'close') {
+            lLayer.fadeIn();
+
+        } else {
+            lLayer.fadeOut();
+            location.reload();
+        }
+
+        lLayer.find('.btn-close, .bg').click(function (e) {
+            e.preventDefault();
+            $(this).closest('.pop-layer').fadeOut();
+            location.reload();
+        });
+
+    }
+
+    $(document).ready(function(){
+
+        $('.car-slide .car-item a').click(function (e) {
+            e.preventDefault();
+            $('.car-slide .car-item').removeClass('select');
+            $(this).closest('.car-item').addClass('select');
+
+            $('#hopeCarCd').val($(this).data('hopecarcd'));
+        });
+
+
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        if(getParameterByName("error") != ""){
+            alert('이름 및 휴대전화번호를 확인해주세요.');
+        }
+
+        /* 로고 클릭 시 메인 화면 이동 */
+        $(".side").click(function(){
+            if("${inflPathAclsCd}" != "A03" && "${inflPathAclsCd}" != "A10" ){
+                location.href = "http://www.audi.co.kr";
+            }
+        })
+    });
+
+</script>
+
+<div id="wrap" class="type-q6">
+    <section class="visual-wrap">
+        <div class="logo"><a href="https://www.audi.co.kr"><img src="../assets/img/logo.png" alt=""></a></div>
+        <!-- 2024-11-07 추가 -->
+        <div class="q6-title">
+            <h1>
+                The new Audi <br class="only-mo" />Q6 e-tron,<br />
+                새로운 전기의 시작
+            </h1>
+        </div>
+        <!-- // 2024-11-07 추가 -->
+        <div class="inner-text">
+            <p>* 상기 이미지는 국내 사양과 다소 차이가 있을 수 있습니다.</p>
+        </div>
+        <!-- // 2024-11-07 추가 -->
+    </section>
+
+    <!-- 2024-10-31 수정 -->
+    <section class="section01">
+        <div class="inner">
+            <h2>
+                The new Audi Q6 e-tron / SQ6 e-tron <br/> 사전계약이 종료되었습니다.
+            </h2>
+            <p>
+                아우디의 새로운 Q6 e-tron / SQ6 e-tron을 <br class="only-mo" />가장
+                먼저 만나보세요.
+            </p>
+        </div>
+    </section>
+    <!-- // 2024-10-31 수정 -->
+
+    <!-- 2024-11-07 추가 -->
+    <section class="section01-1">
+        <div class="inner">
+##            <div class="inner-content">
+##                <h3 class="big-title">Audi Q6 e-tron Events</h3>
+##                <p>
+##                    이제, e-tron의 새로운 차원이 열립니다. <br />
+##                    미래를 향한 새로운 디자인과 더욱 스마트해진 기술, 지금껏 볼 수
+##                    없었던 e-tron의 놀라운 혁신을 만나보세요.
+##                </p>
+##            </div>
+            <div class="inner-content" style="margin-bottom: 10px;">
+                <h3 class="big-title">
+                    <br class="only-mo" />사전계약 구매 혜택
+                </h3>
+                <p class="only-mo">
+                    <b>The new Audi Q6 e-tron /</b> <br />
+                    <b>SQ6 e-tron</b> 을 <br />
+                    사전계약으로 출고한 고객 <b>500분께(선착순)</b>는 감사한 마음을 담아<br />
+                    <b>아우디 정품 악세서리 (Convenience package)</b> 또는 <br />
+                    <b>와인 1년 정기 구독서비스</b>를 제공합니다.<br />
+                </p>
+                <p class="only-pc">
+                    <b>The new Audi Q6 e-tron / SQ6 e-tron</b>을
+                    사전계약으로<br />
+                    출고한 고객 <b><span class="asterisk" style="position: relative; top: -10px; color: red; font-size: 12px;">*</span>500분께(선착순)</b>는 감사한 마음을 담아<br />
+                    <b
+                    >아우디 정품 악세서리 (Convenience package) 또는 와인 1년 정기 구독서비스</b
+                    >를 제공합니다
+                </p>
+            </div>
+            <div>
+                <p><span class="asterisk">*</span>사전계약 후 30일 이내 계약금 입금 완료 고객에 해당합니다.</p>
+                <p><span class="asterisk">*</span>구매혜택은 온라인 사전계약 페이지에서 사전계약을 신청하신 고객 중,<br/> 계약금을 기한내 (30일 이내) 입금하신 분을 기준으로 출고가 이루어졌을 때 지급됩니다.</p>
+            </div>
+            <div class="price-title-wrap" style="margin-top: 30px;">
+                <h2 class="title">Price Range</h2>
+            </div>
+            <div class="price-range-content">
+                <div class="range-box range-box-01">
+                    <h3 class="model-name">Q6 e-tron performance</h3>
+                    <!-- 2025-01-13 수정 -->
+                    <!-- <p class="price"><strong>8,200</strong>만원대 부터</p> -->
+                    <p class="price"><strong>82,900,000</strong>원 부터</p>
+                    <!-- // 2025-01-13 수정 -->
+                </div>
+                <div class="range-box range-box-02">
+                    <h3 class="model-name">
+                        Q6 e-tron performance <br />Premium
+                    </h3>
+                    <!-- 2025-01-13 수정 -->
+                    <!-- <p class="price"><strong>8,600</strong>만원대 부터</p> -->
+                    <p class="price"><strong>89,900,000</strong>원 부터</p>
+                    <!-- // 2025-01-13 수정 -->
+                </div>
+                <div class="range-box range-box-03">
+                    <h3 class="model-name">Q6 e-tron quattro <br />Premium</h3>
+                    <!-- 2025-01-13 수정 -->
+                    <!-- <p class="price"><strong>8,900</strong>만원대 부터</p> -->
+                    <p class="price"><strong>106,900,000</strong>원 부터</p>
+                    <!-- // 2025-01-13 수정 -->
+                </div>
+            </div>
+            <!-- 2025-01-13 추가 -->
+            <div class="price-range-footer">
+                <p><span class="asterisk">*</span>권장소비자가격</p>
+            </div>
+            <!-- // 2025-01-13 추가 -->
+
+            <!-- 2025-01-13 추가 -->
+            <!-- 2025-01-22 수정-->
+            <div class="table-wrap3">
+                <div class="title-box">
+                    <h2 class="title">패키지 선택옵션</h2>
+                    <p class="side">
+                        <b>Q6 e-tron performance</b>와 <b>Q6 e-tron performance</b>
+                        <br />
+                        <b>premium</b>에서만 선택 가능한 <b>Package</b>입니다.
+                    </p>
+                </div>
+                <table class="table-01">
+                    <colgroup>
+                        <col width="35%" />
+                        <col width="20%" />
+                        <col width="20%" />
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th class="col-1" scope="col" colspan="1">
+                            Package Information
+                        </th>
+                        <th scope="col" colspan="1">
+                            Q6 e-tron <br />
+                            performance
+                        </th>
+                        <th scope="col" colspan="1">
+                            Q6 e-tron <br />
+                            performance Premium
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="row-01" rowspan="1">
+                            <b>Tech Package</b> <br />
+                            스포츠 시트 (앞좌석 통풍 시트), 어쿠스틱 글래스, 휠 사이즈
+                            업 (20인치), 스티어링 휠 열선, 앞/뒷좌석 열선 시트
+                        </td>
+                        <td colspan="1">
+                            선택 가능 <br />
+                            (4,000,000원)
+                        </td>
+                        <td colspan="1">기본 적용</td>
+                    </tr>
+                    <tr>
+                        <td class="row-01" rowspan="1">
+                            <b>Tech Package Pro</b> <br />
+                            AR 헤드업 디스플레이, 버추얼 콕핏 플러스, B&O 3D 프리미엄
+                            사운드 (헤드레스트 스피커), 다이내믹 인터랙션 라이트 (Q6
+                            e-tron performance 모델은 Tech Package 적용 후 Tech Package
+                            Pro 적용이 가능합니다.)
+                        </td>
+                        <td colspan="1">
+                            선택 가능 <br />
+                            (6,290,000원 - <br />
+                            6,450,000원)
+                        </td>
+                        <td colspan="1">
+                            선택 가능 <br />
+                            (6,290,000원 - <br />
+                            6,450,000원)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="row-01" rowspan="1">
+                            <b>Light Package</b> <br />
+                            메트릭스 LED 헤드라이트, OLED 테일램프
+                        </td>
+                        <td colspan="1">
+                            선택 가능 <br />
+                            (2,150,000원 - <br />
+                            2,280,000원)
+                        </td>
+                        <!-- 2025-01-23 수정 -->
+                        <td colspan="1">
+                            선택 가능 <br />
+                            (2,150,000원 - <br />
+                            2,280,000원)
+                        </td>
+                        <!-- // 2025-01-23 수정 -->
+                    </tr>
+                    <tr>
+                        <td class="row-01 last-td" rowspan="1">
+                            <b>Passenger Display</b> <br />
+                            스포츠 시트 (앞좌석 통풍 시트), 어쿠스틱 글래스, 휠 사이즈
+                            업 (20인치), 스티어링 휠 열선, 앞/뒷좌석 열선 시트
+                        </td>
+                        <td class="last-td" colspan="1">
+                            선택 가능 <br />
+                            (1,180,000원)
+                        </td>
+                        <td class="last-td" colspan="1">기본 적용</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="footer-box">
+                    <h3>내/외장 선택옵션</h3>
+                    <div class="text-01">
+                        <p class="number-01">
+                            1. 시트패키지 - 브라운 시트패키지(200,000원), 베이지 시트
+                            패키지(180,000원) - Q6 e-tron performance만 선택가능.
+                        </p>
+                        <p class="number-02">
+                            2. 외장색상 옵션 <br />
+                            Soneira Red(670,000원) - Q6 e-tron performance만 선택가능.
+                            <br />
+                            Ascari Blue(570,000원 - 770,000원) - SQ6 e-tron 제외한 전모델
+                            선택가능.
+                        </p>
+                    </div>
+                    <div class="text-02">
+                        <p>
+                            ※ 상기 제원 및 사양은 표준 사양으로 일부 재고 모델은 상이한
+                            사항이 있을 수 있으므로 보다 정확한 사양은 아우디 공식
+                            딜러에게 문의 바랍니다.
+                        </p>
+                        <p>
+                            ※ 제원 및 사양은 제품의 성능 향상을 위하여 예고 없이 변경될 수
+                            있습니다.
+                        </p>
+                        <p>
+                            ※ 상기 가격은 예고 없이 변경될 수 있으며, 제시된 가격은 권장
+                            가격일 뿐 옵션에 따라 상이할 수 있습니다.
+                        </p>
+                        <p>
+                            ※ 본 가격표에 기재된 차량 및 사양의 가격은 권장소비자가격으로,
+                            실제 판매 가격과 상이할 수 있습니다.
+                        </p>
+                        <p>
+                            ※ 패키지별 적용 가능 여부 및 상세 옵션 내용과 정확한 판매
+                            가격은 아우디 공식 딜러에게 문의하시기 바랍니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- //2025-01-22 수정-->
+
+
+            <div class="benefit-box">
+                <h3 class="benefit-title">구매 혜택</h3>
+                <!-- 2024-11-11 추가 -->
+                <div class="benefit-detail-wrap">
+                    <div class="benefit-img-wrap">
+                        <div class="img-wrap">
+                            <img
+                                    src="$!{CON_STATIC_URL}/etronGtPreorder/responsive/img/img-benefit-acc-01.png"
+                                    alt="아우디 정품 악세서리"
+                            />
+                        </div>
+                        <h3>아우디 정품 악세서리<br />(Convenience package)</h3>
+                    </div>
+                    <div class="benefit-img-wrap">
+                        <div class="img-wrap">
+                            <img
+                                    src="$!{CON_STATIC_URL}/etronGtPreorder/responsive/img/img-benefit-acc-02.png"
+                                    alt="아우디 와인 구독 서비스"
+                            />
+                        </div>
+                        <h3>와인 1년 정기 구독서비스</h3>
+                    </div>
+                </div>
+                <!-- //2024-11-11 추가 -->
+            </div>
+        </div>
+    </section>
+    <!-- // 2024-11-07 추가 -->
+    <!-- 2024-11-07 추가 -->
+    <!--
+    <section class="section01-2">
+        <div class="inner">
+            <div class="title-wrap">
+                <h2 class="title">Audi Experience Q6 e-tron Preview 행사</h2>
+                <p class="date-text">2024년 11월 19일 ~ 2025년 2월 16일</p>
+                <p class="preview-text">
+                    Audi Experience Q6 e-tron Preview에 여러분을 초대합니다.
+                </p>
+            </div>
+        </div>
+        <div class="inner-btn">
+            <button onclick="window.open('https://www.audi.co.kr/kr/web/ko/q6e-tron_preview.html')" class="invite-event">행사 자세히보기</button>
+        </div>
+    </section>
+    -->
+    <!-- // 2024-11-07 추가 -->
+    <!-- // 2024-10-31 수정 -->
+
+    <section class="section03">
+        <div class="inner">
+            <form name="f" id="f" method="post" >
+                <input type="hidden" name="inflPathAclsCd" value="$!{inflPathAclsCd}" />
+                <input type="hidden" name="inflPathBclsCd" value="$!{inflPathBclsCd}" />
+                <input type="hidden" name="deviceB03" value="$!{device}" />
+                <input type="hidden" name="deviceId" value="$!{deviceId}" />
+                <input type="hidden" name="cmpnNo" value="$!{cmpnNo}" />
+                <input type="hidden" name="reqDealerCd" id="reqDealerCd" />
+                <input type="hidden" name="reqShrmCd" id="reqShrmCd" />
+                <input type="hidden" name="brandCd" value="A" />
+                <input type="hidden" name="mid" value="" />
+                <input type="hidden" name="shrmNm" id="shrmNm" value="" />
+                <input type="hidden" name="hopeCarCd" id="hopeCarCd" value="" />
+                <input type="hidden" name="testType" id="testType" value="etc" />
+                <input type="hidden" name="designatedDealerId" id="designatedDealerId" />
+                <input type="hidden" id="considerCarBrandCd" name="considerCarBrandCd" />
+                <input type="hidden" id="carBrandCd" name="carBrandCd"/>
+                <input type="hidden" id="carBuyPlanCd" name="carBuyPlanCd" />
+                <input type="hidden" id="userId" name="userId" />
+                <input type="hidden" name="testYn" value="$!{testYn}"/>
+
+                <div class="title-wrap">
+                    <!-- 2024-01-25 수정 및 추가 -->
+                    <h2 class="title">모델 선택 <span class="asterisk">*</span></h2>
+                    <p class="guide">
+                        <span class="asterisk">*</span>는 필수 입력 항목입니다.
+                    </p>
+                </div>
+                <!-- //2024-01-25 수정 및 추가 -->
+                <div class="car-slide">
+                    <div class="car-item">
+                        <a href="#" data-hopecarcd="etronQ6Preorder">
+                            <div class="img-box">
+                                <img src="$!{CON_STATIC_URL}/etronGtPreorder/responsive/img/img_q6.png" alt="">
+                            </div>
+                            <strong>Q6 e-tron</strong>
+                        </a>
+                    </div>
+                    <div class="car-item">
+                        <a href="#" data-hopecarcd="etronSQ6Preorder">
+                            <div class="img-box">
+                                <img src="$!{CON_STATIC_URL}/etronGtPreorder/responsive/img/img_sq6.png" alt="">
+                            </div>
+                            <strong>SQ6 e-tron</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="title-wrap">
+                    <!-- 2024-01-25 수정 -->
+                    <h2 class="title">전시장 선택 <span class="asterisk">*</span>
+                    	<p class="guide">*선택 딜러사: <span id="dealer-text">전시장을 선택해주세요.</span></p>
+                    </h2>
+                    <!-- //2024-01-25 수정 -->
+                </div>
+                <p class="notice-text">지역 선택 후, 관심 전시장을 선택해주세요.</p>
+                <div class="form-wrap">
+                    <div class="select-wrap">
+                        <div class="select-box">
+                            <select name="selcity" id="selcity">
+                                <option value="0">지역 선택</option>
+                                <option value="강원/원주">강원/원주</option>
+                                <option value="경남/울산">경남/울산</option>
+                                <option value="경북/대구">경북/대구</option>
+                                <option value="부산">부산</option>
+                                <option value="서울">서울</option>
+                                <option value="인천/경기">인천/경기</option>
+                                <option value="전남/광주">전남/광주</option>
+                                <option value="전북/전주">전북/전주</option>
+                                <option value="제주">제주</option>
+                                <option value="충청/대전">충청/대전</option>
+                            </select>
+                        </div>
+                        <div class="select-box">
+                            <select name="dealer" id="dealer">
+                                <option value="0">전시장 선택</option>
+                                #foreach ($daList in $dealerAddShopList2)
+                                    <option value="$!{daList.shrmCd}" dealerCd="$!{daList.dealerCd}" data-dealername="$!{daList.dealerNm}"
+                                    	#if($!selectDealer == $!daList.shrmCd) selected #end>$!{daList.shrmName}</option>
+                                #end
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2022-05-10 추가 -->
+                <style>
+                    .guide-box{margin-top:30px;padding:30px 18px;background-color:#f2f2f2;}
+                    .guide-box p {position:relative;padding-left:19px;font-size:14px;color:#717273;line-height: 24px;}
+                    .guide-box p::before{content:'';position:absolute;top:6px;left:0;width:14px;height:14px;background:url(/resources/images/apply_w/icon_noti.png) 50% no-repeat;background-size: 14px 14px;}
+                    .guide-box p strong{color:#cf0033;font-size:inherit}
+                </style>
+                <div class="guide-box" id="businessHour" style="display:none;">
+                    <p>선택하신 전시장 영업시간은 <strong>평일 <span id="fromToTime">오전 9시부터 오후 8시까지</span></strong> 입니다.<br>
+                        <span id="toTime">오후 8시</span> 이후 신청하신 시승 및 차량상담은 다음 영업일 영업시간에 순차적으로 연락 드리겠습니다.</p>
+                </div>
+                <!-- //2022-05-10 추가 -->
+
+                <!-- 2023-09-07 추가 -->
+                <div class="title-wrap">
+                    <!-- 2024-01-25 수정 -->
+                    <h2 class="title">영업사원 선택 <span class="asterisk">*</span></h2>
+                    <!-- //2024-01-25 수정 -->
+                </div>
+                <div class="form-wrap">
+                    <div class="select-wrap">
+                        <div class="select-box">
+                            <select name="dealerUser" id="dealerUser">
+                                <option value="">딜러를 선택해주세요</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2023-09-07 추가 -->
+
+                <!-- 2024-01-24 추가 -->
+                <div class="title-wrap">
+                    <h2 class="title">
+                        구매 희망 시기 <span class="asterisk">*</span>
+                    </h2>
+                </div>
+                <div class="form-wrap">
+                    <div class="select-wrap">
+                        <div class="select-box">
+                            <!-- 2024-01-30 수정 -->
+                            <select id="carBuyPlan">
+                                <option value="0">구매 희망 시기를 선택해주세요.</option>
+                            </select>
+                            <!-- //2024-01-30 수정 -->
+                        </div>
+                    </div>
+                </div>
+                #*
+
+                                <div class="title-wrap">
+                                    <h2 class="title">현재 보유 차량</h2>
+                                </div>
+                                <p class="notice-text">
+                                    현재 보유하고 계신 차량 정보를 입력해주세요.
+                                </p>
+                                <div class="form-wrap">
+                                    <div class="select-wrap">
+                                        <div class="select-box">
+                                            <label for="selectCarBrand">보유 여부 및 브랜드</label>
+                                            <!-- 2024-01-30 수정 -->
+                                            <select id="selectCarBrand1">
+                                                <option value="0">
+                                                    차량 보유 여부 및 브랜드를 선택해주세요.
+                                                </option>
+                                            </select>
+                                            <!-- //2024-01-30 수정 -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-wrap">
+                                    <div class="col">
+                                        <label for="carModel1">보유 모델</label>
+                                        <input
+                                                type="text"
+                                                id="carBrandNm"
+                                                name="carBrandNm"
+                                                disabled
+                                                placeholder="보유 모델명을 입력해주세요."
+                                        />
+                                    </div>
+                                </div>
+                *#
+
+                <div class="title-wrap">
+                    <h2 class="title">구매 고려 차량</h2>
+                </div>
+                <p class="notice-text">
+                    구매를 고려하고 계신 타 브랜드 차량 정보를 입력해주세요.
+                </p>
+                <div class="form-wrap">
+                    <div class="select-wrap">
+                        <div class="select-box">
+                            <label for="selectCarBrand">고려 여부 및 브랜드</label>
+                            <!-- 2024-01-30 수정 -->
+                            <select id="selectCarBrand2">
+                                <option value="NA">
+                                    고려 여부 및 브랜드를 선택해주세요.
+                                </option>
+                            </select>
+                            <!-- //2024-01-30 수정 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="form-wrap">
+                    <div class="col">
+                        <label for="carModel2">고려 모델</label>
+                        <input
+                                type="text"
+                                id="considerCarModel"
+                                name="considerCarModel"
+                                disabled
+                                placeholder="고려 중인 모델명을 입력해주세요."
+                        />
+                    </div>
+                </div>
+                <!-- 2024-01-24 추가 -->
+
+                <div class="title-wrap">
+                    <h2 class="title">개인정보 입력 <span class="asterisk">*</span></h2>
+                </div>
+                <div class="new-add">
+                    <p class="notice-text-width">
+                        자세한 상담을 위해 담당 딜러가 고객님께서 입력하신 휴대전화번호로 연락드립니다.
+                    </p>
+                    <button class="newnew-btn userauth_btn" type="button" onclick="javascript:goUserAuth();">본인인증</button>
+                </div>
+                <div class="form-wrap userauth_info" style="display: none;">
+                    <div class="col">
+                        <label for="prsptNm" style="cursor:default;">이름</label>
+                        <input type="text" id="prsptNm" name="prsptNm" placeholder="이름을 입력해주세요." disabled/>
+                    </div>
+                    <div class="col">
+                        <label for="hpNo" style="cursor:default;">휴대전화번호</label>
+                        <input type="text" id="hpNo" name="hpNo" placeholder="‘-’를 제외하고 입력해주세요." disabled/>
+                    </div>
+                </div>
+
+                <div class="title-wrap">
+                    <h2 class="title">개인정보 제공 동의</h2>
+                </div>
+                <div class="agree-form">
+                    <!--2021-04-30 추가(s)-->
+                    <p class="notice-text">
+                        폭스바겐그룹코리아 주식회사 는 아우디 사전계약 서비스 제공을 위해 &lt;개인정보 보호법&gt; 등 관련 법률에 따라 아래와 같이 개인정보를 수집, 이용, 제공하고자 합니다. 내용을 자세히 읽으신 후 동의 여부를 결정하여 주시기 바랍니다.
+                    </p>
+                    <!--2021-04-30 추가(e)-->
+                    <div class="agree-top">
+                        <p>* 귀하는 아래 동의 내용을 확인한 후 개별 동의를 하실 수도 있습니다. 아래의 동의 항목 중에는 선택 동의 사항이 포함되어 있습니다.</p>
+                        <!-- 2021-02-16 -->
+                        <div class="chk-box">
+                            <input type="checkbox" id="agree-all" name="agree-all" onclick="goAllCheck();">
+                            <label class="checkbox" for="agree-all"></label>
+                            <label for="agree-all">전체동의</label>
+                        </div>
+                        <!-- //2021-02-16 -->
+                    </div>
+                    <ul class="agree-list">
+                        <li>
+                            <dl>
+                                <dt>개인정보 수집 및 이용 동의 <strong>(필수) * </strong></dt>
+                                <dd>
+                                    <div class="form-box">
+                                        <!-- 2021-02-16 -->
+                                        <div class="radio-box">
+                                            <input type="radio" id="agrUseYny" name="agrUseYn" class="ychk" value="Y">
+                                            <label class="checkbox" for="agrUseYny"></label>
+                                            <label for="agrUseYny">동의함</label>
+                                        </div>
+                                        <div class="radio-box">
+                                            <input type="radio" id="agrUseYnn" name="agrUseYn" class="nchk" value="N">
+                                            <label class="checkbox" for="agrUseYnn"></label>
+                                            <label for="agrUseYnn">동의안함</label>
+                                        </div>
+                                        <!-- //2021-02-16 -->
+                                    </div>
+                                    <a href="javascript:layerPopUp({selId:'#pop1'});">자세히 보기</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>개인정보 제3자 제공에 동의 <strong>(필수) * </strong></dt>
+                                <dd>
+                                    <div class="form-box">
+                                        <!-- 2021-02-16 -->
+                                        <div class="radio-box">
+                                            <input type="radio" id="agrOfrYny" name="agrOfrYn" class="ychk" value="Y">
+                                            <label class="checkbox" for="agrOfrYny"></label>
+                                            <label for="agrOfrYny">동의함</label>
+                                        </div>
+                                        <div class="radio-box">
+                                            <input type="radio" id="agrOfrYnn" name="agrOfrYn" class="nchk" value="N">
+                                            <label class="checkbox" for="agrOfrYnn"></label>
+                                            <label for="agrOfrYnn">동의안함</label>
+                                        </div>
+                                        <!-- //2021-02-16 -->
+                                    </div>
+                                    <a href="javascript:layerPopUp({selId:'#pop2'});">자세히 보기</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>마케팅 목적의 개인정보 수집·이용 및 광고성 정보 수신 동의 (선택)</dt>
+                                <dd>
+                                    <div class="form-box">
+                                        <div class="form-item">
+                                            <!-- 2021-02-16 -->
+                                            <!-- 2024-09-12 추가 -->
+                                            <label for="agree3-1y" class="title">마케팅 목적의 수집 및 이용 여부</label>
+                                            <div class="input-box">
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrTotalYny" name="agrTotalYn" class="ychk" value="Y">
+                                                    <label class="checkbox" for="agrTotalYny"></label>
+                                                    <label for="agrTotalYny">동의함</label>
+                                                </div>
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrTotalYnn" name="agrTotalYn" class="nchk" value="N">
+                                                    <label class="checkbox" for="agrTotalYnn"></label>
+                                                    <label for="agrTotalYnn">동의안함</label>
+                                                </div>
+                                            </div>
+                                            <!-- //2024-09-12 추가 -->
+                                            <!-- //2021-02-16 -->
+                                        </div>
+                                        <div class="form-item">
+                                            <!-- 2021-02-16 -->
+                                            <label for="agree3-2y" class="title">광고성 정보 수신 동의 여부</label>
+                                            <div class="input-box">
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrAdYny" name="agrAdYn" class="ychk" value="Y">
+                                                    <label class="checkbox" for="agrAdYny"></label>
+                                                    <label for="agrAdYny">동의함</label>
+                                                </div>
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrAdYnn" name="agrAdYn" class="nchk" value="N">
+                                                    <label class="checkbox" for="agrAdYnn"></label>
+                                                    <label for="agrAdYnn">동의안함</label>
+                                                </div>
+                                            </div>
+                                            <!-- //2021-02-16 -->
+                                        </div>
+                                    </div>
+                                    <a href="javascript:layerPopUp({selId:'#pop3'});">자세히 보기</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <!-- <li>
+                            <dl>
+                                <dt>개인정보 처리업무 위탁에 대한 동의 (선택)</dt>
+                                <dd>
+                                    <div class="form-box">
+                                        2021-02-16
+                                        <div class="radio-box">
+                                            <input type="radio" id="agrCmsYny" name="agrCmsYn" class="ychk" value="Y">
+                                            <label class="checkbox" for="agrCmsYny"></label>
+                                            <label for="agrCmsYny">동의함</label>
+                                        </div>
+                                        <div class="radio-box">
+                                            <input type="radio" id="agrCmsYnn" name="agrCmsYn" class="nchk" value="N">
+                                            <label class="checkbox" for="agrCmsYnn"></label>
+                                            <label for="agrCmsYnn">동의안함</label>
+                                        </div>
+                                        //2021-02-16
+                                    </div>
+                                    <a href="javascript:layerPopUp({selId:'#pop4'});">자세히 보기</a>
+                                </dd>
+                            </dl>
+                        </li> -->
+                        <li>
+                            <dl>
+                                <dt>개인정보 마케팅목적 제3자 제공에 대한 동의 (선택)</dt>
+                                <dd>
+                                    <div class="form-box">
+                                        <div class="form-item">
+                                            <!-- 2021-02-16 -->
+                                            <label for="agree3-1y" class="title">마케팅 목적으로 제3자에 제공 여부</label>
+                                            <div class="input-box">
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrMarkYny" name="agrMarkYn" class="ychk" value="Y">
+                                                    <label class="checkbox" for="agrMarkYny"></label>
+                                                    <label for="agrMarkYny">동의함</label>
+                                                </div>
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrMarkYnn" name="agrMarkYn" class="nchk" value="N">
+                                                    <label class="checkbox" for="agrMarkYnn"></label>
+                                                    <label for="agrMarkYnn">동의안함</label>
+                                                </div>
+                                            </div>
+                                            <!-- //2021-02-16 -->
+                                        </div>
+                                        <div class="form-item">
+                                            <!-- 2021-02-16 -->
+                                            <label for="agree3-1y" class="title">제 3자로부터 광고성 정보 수신 여부</label>
+                                            <div class="input-box">
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrPriYny" name="agrPriYn" class="ychk" value="Y">
+                                                    <label class="checkbox" for="agrPriYny"></label>
+                                                    <label for="agrPriYny">동의함</label>
+                                                </div>
+                                                <div class="radio-box">
+                                                    <input type="radio" id="agrPriYnn" name="agrPriYn" class="nchk" value="N">
+                                                    <label class="checkbox" for="agrPriYnn"></label>
+                                                    <label for="agrPriYnn">동의안함</label>
+                                                </div>
+                                            </div>
+                                            <!-- //2021-02-16 -->
+                                        </div>
+                                    </div>
+                                    <a href="javascript:layerPopUp({selId:'#pop5'});">자세히 보기</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li style="display:  none;">
+                            <dl>
+                                <dt>이메일 수신동의</dt>
+                                <dd>
+                                    <div class="form-box">
+                                        <input type="radio" id="agrEmlYnY" name="agrEmlYn" class="ychk" value="Y"><label for="agrEmlYnY">동의함</label>
+                                        <input type="radio" id="agrEmlYnN" name="agrEmlYn" class="nchk" value="N"><label for="agrEmlYnN">동의안함</label>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li style="display:  none;">
+                            <dl>
+                                <dt>우편물 수신동의</dt>
+                                <dd>
+                                    <div class="form-box">
+                                        <input type="radio" id="agrPstYnY" name="agrPstYn" class="ychk" value="Y"><label for="agrPstYnY">동의함</label>
+                                        <input type="radio" id="agrPstYnN" name="agrPstYn" class="nchk" value="N"><label for="agrPstYnN">동의안함</label>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li style="display:  none;">
+                            <dl>
+                                <dt>휴대폰 SMS 수신동의</dt>
+                                <dd class="txt_right">
+                                    <div class="form-box">
+                                        <input type="radio" id="agrSmsYnY" name="agrSmsYn" class="ychk" value="Y"><label for="agrSmsYnY">동의함</label>
+                                        <input type="radio" id="agrSmsYnN" name="agrSmsYn" class="nchk" value="N"><label for="agrSmsYnN">동의안함</label>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>Audi Korea  개인정보 취급방침</dt>
+                                <dd>
+                                    <a href="#" onclick="goPolicyTestDrive();">자세히 보기</a>
+                                </dd>
+                            </dl>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!--2021-04-30 추가(s)-->
+                <div class="title-wrap">
+                    <h2 class="title">개인정보 처리업무 위탁 고지</h2>
+                </div>
+                <div class="pop-section">
+                    <div class="agree-form">
+                        <div class="agree-detail-box">
+                            <p>
+                                폭스바겐그룹코리아 주식회사는 고객님께서 아우디 사전계약 서비스를 이용하는 것과 관련하여 필요한 업무 중 일부를 외부 업체로 하여금 수행하도록<br>
+                                개인정보를 위탁하고 있으며, 위탁 받은 업체가 개인정보보호 관계 법령을 위반하지 않도록 관리∙감독하고 있습니다. 업무 위탁 관련 자세한 내용과 변경사항은<br>
+                                아우디코리아 www.audi.co.kr 혹은 본 페이지의 <a href="https://www.audi.co.kr/kr/web/ko/tools/privacypolicy.html" target="_blank">개인정보 처리방침</a>에서 확인하실 수 있습니다.
+                            </p>
+                            <div class="agree-info-box">
+                                <!--2021-05-07 수정(s)-->
+                                <dl>
+                                    <dt>수탁자</dt>
+                                    <dd>
+                                        ㈜아이프로스펙트코리아
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dd>
+                                        신청 목적에 따른 업무 진행을 위한 신청 정보 확인
+                                    </dd>
+                                </dl>
+                                <!--2021-05-07 수정(e)-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--2021-04-30 추가(e)-->
+
+                <div class="btn-wrap">
+                    <a href="#none" id="submit" class="btn-apply" onclick="javascript:void(0);" style="background-color: gray; cursor: default">사전계약이 종료되었습니다.</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- 개인정보 수집 및 이용 동의 -->
+    <div class="pop-layer" id="pop1">
+        <div class="bg"></div>
+        <div class="layer-wrap">
+            <!--2020-09-08 수정(s)-->
+            <h3 class="title">개인정보 수집 및 이용 동의</h3>
+            <div class="layer-content">
+                <p>
+                    폭스바겐그룹코리아(이하 “VWGK”)는 귀하에게 시승 및 상담 서비스를 제공하기 위하여 아래와 같이
+                    개인정보를 수집 및 이용합니다.
+                </p>
+
+                <div class="table-wrap">
+                    <table>
+                        <colgroup>
+                            <col style="width:170px">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <th scope="row">수집하는<br>개인정보 항목</th>
+                            <td>
+                                성명, 휴대전화번호, IP주소, 연계정보(CI), 관심차종(모델명), 차량구매계획, 딜러선택, 시승∙상담 진행 경과, 신청경로
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">개인정보의<br>수집∙이용 목적</th>
+                            <td>
+                                시승∙차량상담∙비대면 영상상담 신청 의사의 확인 및 담당 딜러사 매칭을 위한 연락, 시승∙차량상담∙비대면 영상상담 서비스 제공, 신청자 식별 및 본인 확인, 분쟁 발생 시를 대비한 기록보존, 불만처리 등 민원응대, 각종 고지사항 전달, 서비스 품질 향상 조사, 고객만족도 조사, 통계분석, (이벤트 진행 시) 경품 추첨 및 배송
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">개인정보의<br>보유∙이용 기간</th>
+                            <td>
+                                <p>
+                                    상법 등 관련 법령의 규정에 의하여 보존할 의무가 있는 경우가 아닌 한, ① 개인 정보의 수집∙이용에 관한 동의 목적을 달성할 때, 또는 ② 귀하가 당사 차량을 더 이상 소유하지 않을 때, 또는 ③ 귀하의 동의 철회시까지 중 더 빨리 도달하는 시점까지 본인의 개인정보를 보유∙이용합니다.
+                                </p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--2020-09-08 수정(e)-->
+            <a href="#" class="btn-close"></a>
+        </div>
+    </div>
+    <!-- //개인정보 수집 및 이용 동의 -->
+
+    <!-- 개인정보 제3자 제공 동의 -->
+    <div class="pop-layer" id="pop2">
+        <div class="bg"></div>
+        <div class="layer-wrap">
+            <h3 class="title">개인정보 제3자 제공 동의</h3>
+            <div class="layer-content">
+                <p class="text">
+                    <span class="underline">VWGK는 귀하에 대한 시승 및 상담 서비스 제공을 위하여 아래와 같이 개인정보를 딜러사에 제공합니다.</span>
+                    귀하는 아래의 개인정보 제3자 제공에 대해 동의하지 않을 수 있으나, 동의거부 시 시승 및 상담 서비스가 제공되지 않을 수 있습니다.
+                </p>
+
+                <div class="table-wrap">
+                    <table>
+                        <colgroup>
+                            <col style="width:170px">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <th scope="row">제공 받는 자<br>연락처</th>
+                            <td>
+                                <!-- 2025-02-13 수정 -->
+		                      <p>
+		                        시승 및 상담을 신청하신 딜러사와 폭스바겐파이낸셜서비스코리아(1588-8420)<br />
+		                        <br />
+		                        * 딜러사 정보 <br />
+		                        고진모터스(02-516-2468)<br />
+		                        위본모터스(02-521-0000)<br />
+		                        태안모터스(02-564-1468)<br />
+		                        코오롱아우토(02-3415-9100)<br />
+		                        <!-- 유카로오토모빌(051-995-0000)<br /> -->
+		                        한영모터스(053-744-7070)<br />
+		                        중산모터스(063-915-0000)<br />
+		                        한서모터스(033-766-7786)<br />
+		                        아이언오토(051-714-0809)<br />
+		                        바이에른오토(1533-2555)<br />
+		                        <!-- 2023-08-18 추가 -->
+		                        <!-- 바이에른오토(1533-2555)<br /> -->
+		                        <!-- //2023-08-18 추가 -->
+		                        <!-- 폭스바겐파이낸셜서비스코리아(1588-8420) -->
+		                      </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">소재국가</th>
+                            <td>한국</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">제공받는 자의<br>개인정보 이용목적</th>
+                            <td>
+                                <p>
+                                    시승 및 상담 서비스 제공, 신청자 식별 및 본인 확인, 분쟁 발생 시를 대비한 기록보존, 불만처리 등 민원응대, 각종 고지사항 전달, 서비스품질향상 조사, 고객만족도조사, 통계분석, (이벤트 진행 시) 경품 추첨 및 배송
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">제공하는<br>개인정보 항목</th>
+                            <td>
+                                성명, 휴대전화번호, 관심차종(모델명), 차량구매계획, 딜러선택, 시승∙상담 진행 경과, 신청경로
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">제공받는 자의 개인정보<br>보유·이용기간</th>
+                            <td>
+                                <p>관련 법령상 보존의무가 없는 한 이용목적 달성시까지</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--2020-09-08 수정(e)-->
+            <a href="#" class="btn-close"></a>
+        </div>
+    </div>
+    <!-- //개인정보 제3자 제공 동의 -->
+
+    <!-- 개인정보 마케팅목적 수집, 이용 동의 -->
+    <div class="pop-layer" id="pop3">
+        <div class="bg"></div>
+        <div class="layer-wrap">
+            <!--2020-09-08 수정(s)-->
+            <h3 class="title">마케팅 목적의 개인정보 수집·이용 및 광고성 정보 수신 동의</h3>
+            <div class="layer-content">
+                <p class="text">
+                    <span class="underline">VWGK는 아래와 같이 광고성 정보 전송 등 마케팅 목적을 위하여 귀하의 개인정보를 수집 및 이용합니다. </span>귀하는 아래의 개인정보 수집·이용에 대해 동의하지 않을 수 있고, 이는 시승 및 상담 서비스 제공에 영향을 미치지 않습니다. 다만, 동의 거부 시 VWGK로부터 유용한 정보를 제공받지 못하실 수 있습니다.
+                </p>
+                <div class="table-wrap">
+                    <table>
+                        <colgroup>
+                            <col style="width:170px">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <th scope="row">수집하는<br>개인정보 항목</th>
+                            <td>
+                                성명, 휴대전화번호, 관심차종(모델명), 차량구매계획, 딜러선택, 시승∙상담 진행 경과, 신청경로
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">개인정보의<br>수집∙이용 목적</th>
+                            <td>
+                                문자 메시지 (SMS, 카카오톡, 알림톡, 등), 이메일, 우편, 전화, 푸쉬 알림 등을 통한 아우디 제품 및 브랜드 관련 정보(뉴스레터/카탈로그 포함) 제공과 향후 진행될 프로모션 및 이벤트 정보 등의 전달 등 광고성 정보의 전송
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">개인정보의<br>보유∙이용 기간</th>
+                            <td>
+                                <p>
+                                    관련 법령상 보존의무가 없는 한 이용목적 달성시까지
+                                </p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--2020-09-08 수정(e)-->
+            <a href="#" class="btn-close"></a>
+        </div>
+    </div>
+    <!-- //개인정보 마케팅목적 수집, 이용 동의 -->
+
+    <!-- 처리위탁 -->
+    <div class="pop-layer" id="pop4">
+        <div class="bg"></div>
+        <div class="layer-wrap">
+            <!--2020-09-08 수정(s)-->
+            <h3 class="title">개인정보 처리업무 위탁에 대한 동의</h3>
+            <div class="layer-content">
+                <p class="text">
+                    <span class="underline">VWGK는 마케팅 업무를 위하여 아래와 같이 귀하의 개인정보를 처리위탁 합니다.</span>
+                </p>
+                <div class="table-wrap">
+                    <table>
+                        <colgroup>
+                            <col style="width:170px">
+                            <col>
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th scope="col">수탁업체</th>
+                            <th scope="col">위탁하는 업무의 내용</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">Kantar Live GmbH</th>
+                            <td>아우디 고객 리쿠르팅을 통한 미스터리 쇼핑 진행</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">㈜ 유베이스</th>
+                            <td>아우디 캠페인 및 이벤트, 프로모션 활동, 고객에게 서비스 캠페인 및 기타 서비스 관련 SMS 발송</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">㈜ 와이디자인컴퍼니</th>
+                            <td>아우디 고객에게 서비스 캠페인 및 기타 서비스 관련 DM 발송 및 반송 업무 처리</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">PPW Korea</th>
+                            <td>아우디 고객을 위한 각종 마케팅 이벤트 프로모션 대행</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Science Books Co., Ltd</th>
+                            <td>아우디 매거진 제작/발송</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">디지털 다임</th>
+                            <td>아우디 고객을 위한 온라인 마케팅 이벤트 프로모션 대행, DM 및 경품 발송, 푸시 및 카카오알림톡 발송 등</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">더 시그니처</th>
+                            <td>아우디 고객을 위한 PR, 각종 마케팅 프로모션 대행</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">C&IZCOMM Ltd</th>
+                            <td>아우디 고객에게 서비스 캠페인 및 기타 서비스 관련 발송 및 반송 업무 처리</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ipsos</th>
+                            <td>아우디 고객 리쿠르팅을 통한 미스터리 쇼핑 진행</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Netpathy Inc.</th>
+                            <td>아우디 고객 대상 알림톡 발송</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">㈜ 다우기술</th>
+                            <td>아우디 고객 대상 알림톡, 친구톡 발송</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Interpark Biz Market</th>
+                            <td>아우디 고객을 위한 각종 마케팅 이벤트 프로모션 대행</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">더 레이어 커뮤니케이션</th>
+                            <td>아우디 고객을 위한 PR, 각종 마케팅 프로모션 대행</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--2020-09-08 수정(e)-->
+            <a href="#" class="btn-close"></a>
+        </div>
+    </div>
+    <!-- //처리위탁 -->
+
+    <!-- 개인정보 마케팅목적 제3자 제공 -->
+    <div class="pop-layer" id="pop5">
+        <div class="bg"></div>
+        <div class="layer-wrap">
+            <!--2020-09-08 수정(s)-->
+            <h3 class="title">개인정보 마케팅목적 제3자 제공에 대한 동의</h3>
+            <div class="layer-content">
+                <p class="text">
+                    <span class="underline">VWGK는 마케팅 활용 목적으로 아래와 같이 개인정보를 제3자 제공할 수 있습니다.</span><br>
+                    귀하는 아래의 개인정보 제3자 제공에 대해 동의하지 않을 수 있고, 이는 VWGK의 시승 및 상담 서비스의<br>
+                    제공에 영향을 미치지 않습니다. 다만 동의거부 시 아래 “제공받는 자”로부터 유용한 정보를 제공받지<br>
+                    못하실 수 있습니다.
+                </p>
+                <div class="table-wrap">
+                    <table>
+                        <colgroup>
+                            <col style="width:170px">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <th scope="row">제공 받는 자<br>연락처</th>
+                            <td>
+                                <!-- 2025-02-13 수정 -->
+		                      <p>
+		                        시승 및 상담을 신청하신 딜러사와 폭스바겐파이낸셜서비스코리아(1588-8420)<br />
+		                        <br />
+		                        * 딜러사 정보 <br />
+		                        고진모터스(02-516-2468)<br />
+		                        위본모터스(02-521-0000)<br />
+		                        태안모터스(02-564-1468)<br />
+		                        코오롱아우토(02-3415-9100)<br />
+		                        <!-- 유카로오토모빌(051-995-0000)<br /> -->
+		                        한영모터스(053-744-7070)<br />
+		                        중산모터스(063-915-0000)<br />
+		                        한서모터스(033-766-7786)<br />
+		                        아이언오토(051-714-0809)<br />
+		                        바이에른오토(1533-2555)<br />
+		                        <!-- 2023-08-18 추가 -->
+		                        <!-- 바이에른오토(1533-2555)<br /> -->
+		                        <!-- //2023-08-18 추가 -->
+		                        <!-- 폭스바겐파이낸셜서비스코리아(1588-8420) -->
+		                      </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">소재국가</th>
+                            <td>한국</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">제공받는 자의<br>개인정보 이용목적</th>
+                            <td>
+                                <p>
+                                    캠페인/이벤트 참여고객에 대한 서비스 제공 및 마케팅 활동
+                                    ◦ 문자메시지(SMS,카카오톡 알림톡 등), 전화 이메일, 우편을 통한 제품 및 브랜드 관련 정보(뉴스레터/카탈로그 포함) 전달, 향후 진행될 프로모션 및 이벤트 정보 등의 전달 등 마케팅 목적 활용
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">제공하는<br>개인정보 항목</th>
+                            <td>
+                                성명, 휴대전화번호, 관심차종(모델명), 차량구매계획, 딜러선택, 시승∙상담 진행 경과, 신청경로
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">제공받는 자의 개인정보<br>보유·이용기간</th>
+                            <td>
+                                <p>관련 법령상 보존의무가 없는 한 이용목적 달성시까지</p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--2020-09-08 수정(e)-->
+            <a href="#" class="btn-close"></a>
+        </div>
+    </div>
+    <!-- //개인정보 마케팅목적 제3자 제공 -->
+
+    <!-- 사전 계약신청 -->
+    <div class="pop-layer type2" id="pop6">
+        <div class="bg"></div>
+        <div class="layer-wrap">
+            <h3 class="title"><span id="completePopNm">Audi Q4 e-tron</span> 사전계약 신청이 완료되었습니다.</h3>
+            <div class="layer-content">
+                <div class="btn-wrap">
+                    <a href="javascript:completeClick();" class="btn-apply" id="completePopBtnNm">Audi Q4 e-tron 자세히 보기</a>
+                </div>
+            </div>
+            <a href="javascript:location.reload();" class="btn-close"></a>
+        </div>
+    </div>
+    <!--//사전 계약신청-->
+
+    </div>
+
+    <script>
+
+        //개인정보 취급방침 자세히보기 클릭
+        function goPolicyTestDrive() {
+            #if("${inflPathAclsCd}" == "A14")
+                openBrowser('https://www.audi.co.kr/kr/web/ko/tools/privacypolicy.html');
+            #else
+                window.open(
+                        'https://www.audi.co.kr/kr/web/ko/tools/privacypolicy.html');
+            #end
+
+            /* 데이터 리셔스 s_code 시승신청 개인정보 클릭  start */
+            s.clearVars(); //s 변수를 초기화
+            s.pageName=pageName; //현재 페이지 이름. 이대로 삽입해주시면 됩니다.
+            s.server="www.audikoreaevent.co.kr"; //웹 페이지의 도메인으로, Step1 과 Step2 동일.
+            s.channel=channel; //사이트의 섹션으로 Step1 과 Step2 모두 동일.
+            s.linkTrackVars="prop4,prop48,prop55,prop56,prop57,eVar3,eVar5,eVar6,eVar7,eVar9,eVar15,eVar37,eVar48,eVar50,eVar75,eVar81,eVar83,eVar84,eVar85,eVar86,eVar88" ;
+            s.linkTrackEvents="event981";
+
+            /* Traffic Variables */
+            s.prop4="D=v82"; //클릭 이벤트 이름(eVar82 와 동일). 이대로 삽입해주시면 됩니다.
+            s.prop48="D=v48"; //방문한 페이지의 도메인도시언어사이트속성앱이름앱버전(eVar48 과 동일). 이대로 삽입해주시면 됩니다.
+
+            //시간 get
+            _today = new Date().format("yyyy-MM-dd hh:mm a/p"); //55시간
+            _todayTimeStamp = new Date().getTime(); //57시간
+            currDate = new Date(); //현재시간
+            utcDate2 = currDate.setHours(currDate.getHours() - 9); //UTC 시간 계산
+            utcDate3 = new Date(utcDate2).format("hh:mm a/p"); // 결과
+            localDate = new Date().format("hh:mm a/p");
+
+            s.prop55=_today; //이벤트가 발생한 날짜시간 ex) 2019-06-13 04:47 AM
+            s.prop56=utcDate3 + ", " + localDate; //이벤트가 발생한 UTCLocal 시간 ex) 7:00 AM;4:00 PM
+            s.prop57=_todayTimeStamp; //이벤트가 발생한 시간의 TimeStamp ex) 1560368871
+
+            /* Conversion Variables */
+            s.eVar3="1"; //사이트 내에서 상호작용이 발생할 때마다 1 씩 증가 ex)1, 2, 3..
+            s.eVar5=channel + "|request|no level|no level"; //현재 페이지의 콘텐츠 계층,최대 4 개 가능
+            s.eVar6=document.location.href; //현재 페이지의 URL ex)https://www.audi.de/brand/de.html
+            s.eVar7=channel+" > 아우디 코리아"; //현재 페이지의 제목 ex)A6 > A6 > 아우디 코리아
+            s.eVar9="testDrive"; //현재 페이지의 유형 ex)standardPage, configurableHome
+            s.eVar15="Not Logged In"; //로그인 여부 ex)Logged In, Not Logged In
+            s.eVar37=channel; //현재 페이지(URL 기반) ex)homepage, user/resultlist
+            s.eVar48="dom|www.audi.co.kr;cc|KR;lang|ko;sa|productportal;app|cms;ver|75.4.0"
+            s.eVar50=document.location.href.substring(0, document.location.href.indexOf("?")); //매개변수를 제외한 현재 페이지 URL ex)www.audi.de/de/brand/de.html
+            s.eVar75="D=mid"; //Adobe 에서 부여한 방문자의 Marketing Cloud Id. 이대로	삽입해주시면 됩니다.
+            s.eVar81="internal_link"; //이벤트 액션 이름(클릭 시) ex)page_load,	internal_link ..
+            s.eVar83=clickSeg; //클릭상호 작용이 발생한 페이지의 전체 경로 또는 세분화된식별값(클릭시) ex) homepage, models/q3/q3
+            s.eVar84=clickUrl; //클릭 이벤트가 발생한 페이지의 URL(도메인+경로이름)(클릭시)ex)www.audi.co.kr/kr/web/ko.html
+            s.eVar85="https://www.audi.co.kr/kr/web/ko/tools/privacypolicy.html"; //사용자가 클릭 후 랜딩 되는 페이지의 URL(도메인+경로이름)(클릭시)ex)www.audi.co.kr/kr/web/ko.html
+            s.eVar86="Audi Korea 개인정보 처리방침 자세히보기"; //클릭한 요소의 텍스트 값(클릭시) ex)Your Audi A4, 자세히보기
+            s.eVar88="po|;en|;co|" + channel + "-Bottom;va|"; //클릭한 요소의 정보(위치,이름,구성요소 이름,값)(클릭시)ex)po|;en|;co|main-navigation;va|
+            s.events="event981";
+            s.tl(this, 'o', 'internal_link');
+            /* 데이터 리셔스 s_code 시승신청 개인정보 클릭  end */
+        }
+
+        <!-- 전체 동의 체크 -->
+        function goAllCheck() {
+            if($('input[name=agree-all]').is(':checked') == false){
+                $('input[name=agree-all]').prop("checked",false);
+                $('.ychk').each(function(){
+                    $('.ychk').prop('checked', false);
+                });
+            } else {
+                $('input[name=agree-all]').prop("checked",true);
+                $('.ychk').each(function(){
+                    $('.ychk').prop('checked', true);
+                });
+            }
+        };
+
+        <!-- 중복 클릭 방지 -->
+        var doubleClickFlag = false;
+        function doubleClickCheck(){
+            if(doubleClickFlag){
+                return doubleClickFlag;
+            }else{
+                doubleClickFlag = true;
+                return false;
+            }
+        }
+
+        <!-- 시승신청 -->
+        function goSubmit(){
+            <!--
+            if( parseInt($!{currentDate}) >= parseInt(202012191900) && parseInt($!{currentDate}) < parseInt(202012210000)){
+                alert('서비스 일시중단 안내 \n아우디 코리아에서는 고객님께 더 좋은 서비스를 제공하기위해 시스템 점검을 실행하고자 합니다. \n따라서, 2020년 12월 19일 19시부터 2020년 12월 20일 24시까지  \n일부 서비스가 일시 중단될 수 있사오니 고객님의 양해를 부탁드립니다. \nAudi Korea드림');
+                return;
+            }
+            -->
+
+
+            if(!userAuthFlag){
+                alert("본인 인증 완료 후 신청 가능합니다.");
+                return false;
+            }
+
+            if(checkVal() == true){
+                if(doubleClickCheck()){
+                    return;
+                };
+
+                var selCd = $("#dealer option:selected").val();
+                var dealercd = $("#dealer option:selected").attr("dealerCd");
+                var showName = $("#dealer option:selected").text();
+                var dealerId = $("#dealerUser option:selected").val();		// 영업사원
+
+                let carBuyPlanCd = $("#carBuyPlan").val();
+                let carBrandCd = $("#selectCarBrand1").val();
+                let considerCarBrandCd = $("#selectCarBrand2").val();
+
+                $("input[name=mid]").val(s.visitor._fields.MCMID);
+                $("input[name=reqShrmCd]").val(selCd);
+                $("input[name=reqDealerCd]").val(dealercd);
+                $("input[name=designatedDealerId]").val(dealerId);
+                $("input[name=userId]").val(dealerId)
+                $("input[name=carBuyPlanCd]").val(carBuyPlanCd);
+                $("input[name=carBrandCd]").val(carBrandCd);
+                $("input[name=considerCarBrandCd]").val(considerCarBrandCd);
+
+                $("input[name=shrmNm]").val(showName);
+
+                if($(':radio[name="agrTotalYn"]:checked').val() == 'Y'){
+                    $("#agrEmlYnY").prop("checked", true);
+                    $("#agrPstYnY").prop("checked", true);
+                    $("#agrSmsYnY").prop("checked", true);
+                }else {
+                    $("#agrEmlYnN").prop("checked", true);
+                    $("#agrPstYnN").prop("checked", true);
+                    $("#agrSmsYnN").prop("checked", true);
+                }
+
+                jQuery.ajax({
+                    url : '/lms/application/q6ReservationAjax.do'
+                    , dataType: "json"
+                    , method : 'post'
+                    , data : $('#f').serialize()
+                    , success: function(json) {
+                        if( !json || !json.resultCode || !json.resultMsg){
+                            alert("처리 중 장애가 발생하였습니다. 관리자에게 문의해주시기 바랍니다.");
+                            return;
+                        }
+
+                        if(json.resultCode == "00"){
+
+                            window.location.href = json.rtrnUrl;
+
+
+                            // if($('#hopeCarCd').val() == 'etronQ6Preorder'){
+                            //     $('#completePopNm').text("Audi Q6 e-tron");
+                            //     $('#completePopBtnNm').text("Audi Q6 e-tron 자세히 보기");
+                            // }else{
+                            //     $('#completePopNm').text("Audi SQ6 e-tron");
+                            //     $('#completePopBtnNm').text("Audi SQ6 e-tron 자세히 보기");
+                            // }
+                            //
+                            // layerPopUp2({selId:'#pop6'});
+
+                            var etronName= "Q6 e-tron";
+
+                            if($('#hopeCarCd').val() == 'etronSQ6Preorder') etronName = "SQ6 e-tron";
+
+                            s.pageName="Q6 e-tron_preOrder_popup" //이대로 삽입해주시면 됩니다.
+                            s.server="www.audikoreaevent.co.kr" //웹 페이지의 도메인으로, 이대로 삽입해주시면됩니다.
+                            s.channel="Q6 e-tron_preOrder" //이대로 삽입해주시면 됩니다.
+
+                            /* Traffic Variables */
+                            s.prop2="D=v7" //현재 페이지의 제목(eVar7 과 동일). 이대로 삽입해주시면 됩니다.
+                            s.prop4="D=v82" //클릭 이벤트 이름(eVar82 와 동일). 이대로 삽입해주시면 됩니다.
+                            s.prop36="D=v50" //매개변수를 제외한 현재 페이지 URL(eVar50 과 동일). 이대로삽입해주시면 됩니다.
+                            s.prop37="D=v33" //매개변수를 제외한 이전 페이지 URL(eVar33 과 동일). 이대로삽입해주시면 됩니다.
+                            s.prop38="D=v38" //현재 페이지 이전에 본 페이지의 경로(eVar38 과 동일). 이대로삽입해주시면 됩니다.
+                            s.prop48="D=v48" //방문한 페이지의 도메인도시언어사이트속성앱이름앱버전(eVar48 과 동일). 이대로 삽입해주시면 됩니다.
+                            s.prop55=_today; //이벤트가 발생한 날짜시간 ex) 2019-06-13 04:47 AM
+                            s.prop56=utcDate3 + ", " + localDate; //이벤트가 발생한 UTCLocal 시간 ex) 7:00 AM;4:00 PM
+                            s.prop57=_todayTimeStamp; //이벤트가 발생한 시간의 TimeStamp ex) 1560368871
+                            s.prop74="dnt disabled" //브라우저의 현재 Do Not Track(DNT)상태 ex)dnt disabled, dnterror, dnt enabled
+                            /* Conversion Variables */
+                            s.eVar1="1.00" //방문한 페이지의 번호 ex)1.00, 2.00, 3.00..
+                            s.eVar3="1" //사이트 내에서 상호작용이 발생할 때마다 1 씩 증가 ex)1, 2, 3..
+                            s.eVar5="Q6 e-tron|preOrder|no level|no level" //현재 페이지의 콘텐츠
+                            s.eVar6=document.location.href //현재 페이지의 URL ex) https://www.audi.de/brand/de.html
+                            s.eVar7="Q6 e-tron_preOrder > 아우디 코리아" //이대로 삽입해주시면 됩니다.
+                            s.eVar9="preOrder" //현재 페이지의 유형 ex)standardPage, configurableHome
+                            s.eVar15="Not Logged In" //로그인 여부 ex)Logged In, Not Logged In
+                            s.eVar32="D=r" //이전 페이지의 URL(referrer 값과 동일). 이대로 삽입해주시면 됩니다.
+                            s.eVar33=document.referrer.substring(0); //매개변수를 제외한 이전 페이지 URL(referrer 값에서 매개변수 값 제외)ex)https://search.naver.com/search.naver
+                            s.eVar34="" //이전 페이지 URL 내 매개변수(referrer 값에서 매개변수 값 추출) ex)sm=top_hty&fbm=1&ie=utf8&query=아우디
+                            s.eVar37="Q6 e-tron_preOrder_popup" //현재 페이지 명(URL 기반). 이대로삽입해주시면 됩니다.
+                            s.eVar38=document.referrer; //현재 페이지 이전에 본 페이지의 경로(URL 기반) ex)homepage,used/resultist
+                            s.eVar39="" //이전 페이지의 콘텐츠 계층(이전 페이지의 eVar5) ex)models|models/a4|models/a4/a4limo|no level
+                            s.eVar48="dom|www.audi.co.kr;cc|KR;lang|ko;sa|productportal;app|cms;ver|75.4.0" //방문한 페이지의 도메인도시언어사이트속성앱이름앱버전. 이대로 삽입해주시면 됩니다.
+                            s.eVar50=document.location.href.substring(0, document.location.href.indexOf("?")); //매개변수를 제외한 현재 페이지 URL ex)www.audi.co.kr/kr/web/ko.html
+                            s.eVar75="D=mid" //Adobe 에서 부여한 방문자의 Marketing Cloud Id. 이대로삽입해주시면 됩니다.
+                            var eventAction = "page_load"; //액션마다 값 추가
+                            var clickSeg = channel + "_request"; //채널 + 스텝
+                            var clickUrl = document.location.href; //현재페이지 내에서 이벤트 발생
+                            s.eVar81=eventAction //이벤트 액션 이름(클릭 시) ex)page_load, internal_link ..
+                            s.eVar83=clickSeg //클릭상호 작용이 발생한 페이지의 전체 경로 또는 세분화된 식별값(클릭시)ex) homepage, models/q3/q3
+                            s.eVar84=clickUrl //클릭 이벤트가 발생한 페이지의 URL(도메인+경로이름)(클릭 시)ex)www.audi.co.kr/kr/web/ko.html
+                            s.eVar85="" //사용자가 클릭 후 랜딩 되는 페이지의 URL(도메인+경로이름)(클릭 시) ex)www.audi.co.kr/kr/web/ko.html
+                            s.eVar86="" //클릭한 요소의 텍스트 값(클릭시) ex)Your Audi A4, 자세히보기
+                            s.eVar88="" //클릭한 요소의 정보(위치,이름,구성요소 이름,값)(클릭 시) ex)po|;en|;co|main-navigation;va|
+                            s.eVar89="https://www.audikoreaevent.co.kr/lms/application/gtReservationAjax.do"//사용자가 도달한 페이지의 전체 경로 또는 세분화된 식별 값 ex)homepage,models/q3/q3
+
+                            var eVar180Gbn= "Q6 e-tron";
+                            if($('#hopeCarCd').val() == 'etronSQ6Preorder') eVar180Gbn = "SQ6 e-tron";
+
+                            s.eVar180=eVar180Gbn //사전계약을 신청한 차량 모델 명을 입력해주시면 됩니다. ex) Q4 e-tron, Q4 Sportback e-tron
+                            s.eVar181= showName+"_사전 계약" //입력한 정보 중 딜러 선택 값_신청 유형 ex)아우디 방배_사전 계약
+                            s.events="event107, event981" //사전 계약 신청 및 로컬 내 전체 발생 이벤트. 이대로삽입해주시면 됩니다.
+                            var s_code = s.t();
+                            if(s_code){
+                                document.write(s_code);
+                            }
+
+
+
+                            window.dataLayer = window.dataLayer || [];
+                            window.dataLayer.push({
+                                'event':'preOrder_complete',
+                                'dimension4': 'Q6 e-tron_preOrder_popup', //AA 내 page 와 동일한 값
+                                'dimension9': eVar180Gbn, //사전예약을 완료한 모델 명
+                                'dimension10': showName, //사전예약을 진행한 전시장 명
+                                'dimension11': '사전예약' //고객 상담 신청 유형
+                            })
+                        }else{
+                            alert(json.resultMsg);
+                        }
+                    },
+                    error: function(xhr, stat, e) {
+                        alert("처리 중 장애가 발생하였습니다. 관리자에게 문의해주시기 바랍니다.");
+                    }
+                });
+            }
+        }
+
+        <!-- 숫자만 입력
+        function onlyNumber(event){
+            event = event || window.event;
+            var keyID = (event.which) ? event.which : event.keyCode;
+            if ( (keyID >= 48 && keyID <= 57) || (keyID >= 96 && keyID <= 105) || keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 )
+                return;
+            else
+                alert("숫자만 입력 하실수 있습니다.");
+                return false;
+        }
+        function removeChar(event) {
+            event = event || window.event;
+            var keyID = (event.which) ? event.which : event.keyCode;
+            if ( keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 )
+                return;
+            else
+                event.target.value = event.target.value.replace(/[^0-9]/g, "");
+        }
+        function checkNm(event) {
+            event = event || window.event;
+            var keyID = (event.which) ? event.which : event.keyCode;
+            if(keyID == 32 ||  keyID == 8 || keyID == 46 || keyID == 37 || keyID == 39 || keyID == 16){
+                return ;
+            }else if(keyID < 65 || (keyID > 122 && keyID <= 127)  ){
+                alert("숫자, 특수문자는 입력하실 수 없습니다.");
+                return false;
+            }
+        }
+        -->
+
+
+        $("input[name=agrUseYn]").change(function() {
+            $('input[name=agree-all]').prop('checked', false);
+        });
+        $("input[name=agrOfrYn]").change(function() {
+            $('input[name=agree-all]').prop('checked', false);
+        });
+        $("input[name=agrTotalYn]").change(function() {
+            $('input[name=agree-all]').prop('checked', false);
+        });
+        /* $("input[name=agrCmsYn]").change(function() {
+            $('input[name=agree-all]').prop('checked', false);
+        }); */
+        $("input[name=agrMarkYn]").change(function() {
+            $('input[name=agree-all]').prop('checked', false);
+        });
+        $("input[name=agrAdYn]").change(function() {
+            $('input[name=agree-all]').prop('checked', false);
+        });
+        $("input[name=agrPriYn]").change(function() {
+            $('input[name=agree-all]').prop('checked', false);
+        });
+
+        <!-- 필수 항목 체크 -->
+        function checkVal(){
+            if($("#hopeCarCd").val().isBlank()){
+                alert("모델을 선택해주세요.");
+                return false;
+            }
+            if($("#dealer option:selected").val() == 0){
+                alert("전시장을 선택해주세요.");
+                return false;
+            }
+            if($("#dealer option:selected").val() == 0){
+                alert("전시장을 선택해주세요.");
+                return false;
+            }
+
+            if ($('#prsptNm').val().isBlank() || $('#hpNo').val().isBlank()) {
+                alert('본인 인증 완료 후 신청 가능합니다.');
+                $('#userAuth').focus(); return false;
+            }
+
+            if(checkRadio('agrUseYn').isBlank()) {
+                alert("개인정보 수집 및 이용을 체크해 주십시오.");
+                return false;
+            }
+            if(checkRadio('agrUseYn') != 'Y') {
+                alert("‘[필수]개인정보 수집 및 이용에 동의하여 주십시오. 동의를 하지 않으실 경우 시승 및 상담 신청이 불가능합니다’");
+                return false;
+            }
+            if(checkRadio('agrOfrYn').isBlank()) {
+                alert("개인정보 제3자 제공 동의 항목을 체크해 주십시오.");
+                return false;
+            }
+            if(checkRadio('agrOfrYn') != 'Y') {
+                alert("딜러사의 시승 및 상담 업무의 수행을 위해서 “[필수] 개인정보 제3자 제공”에 동의하여 주십시오. 동의를 하지 않으실 경우 시승 및 상담 업무의 수행이 불가능합니다.");
+                return false;
+            }
+            if(checkRadio('agrTotalYn').isBlank()) {
+                alert("마케팅 목적으로 제3자에 제공 여부  동의 항목을 체크해 주십시오.");
+                return false;
+            }
+            if(checkRadio('agrAdYn').isBlank()) {
+                alert("광고성 정보 수신 동의 여부 동의 항목을 체크해 주십시오.");
+                return false;
+            }
+            /* if(checkRadio('agrCmsYn').isBlank()) {
+                alert("개인정보 처리업무 위탁에 대한 동의 항목을 체크해 주십시오.");
+                return false;
+            } */
+            if(checkRadio('agrMarkYn').isBlank()) {
+                alert("개인정보 마케팅목적 제3자 제공에 대한 동의 항목을 체크해 주십시오.");
+                return false;
+            }
+            if(checkRadio('agrPriYn').isBlank()) {
+                alert("개인정보 마케팅목적 제3자 제공에 대한 동의 항목을 체크해 주십시오.");
+                return false;
+            }
+
+            if ($('#carBuyPlan').val() == '0') {
+                alert('구매 희망 시기를 선택해주세요.');
+                $('#carBuyPlan').focus(); return false;
+            }
+            return true;
+        }
+
+        function selectCarExbition(){
+            var city = $("#selcity option:selected").val();
+            jQuery.ajax({
+                url : '/lms/application/carShowroomListAjax.do'
+                , method : 'post'
+                , dataType : 'html'
+                , data : {
+                    exCity : city
+                    , selectDealer : '$!{selectDealer}'
+                }
+                , success : function(data) {
+                    $("#dealer").html(data);
+                    document.getElementById('dealer-text').textContent = "전시장을 선택해주세요.";
+                }
+            });
+        }
+
+        <!-- 지역 변경 시 전시장 호출-->
+        $("#selcity").change(function(){
+            selectCarExbition();
+        });
+
+        <!-- 전시장 변경 시 소속딜러목록 호출-->
+        $("#dealer").change(function(){
+            selectDealerUser();
+            if($(this).val() != '0'){
+	        	var selectedData = $(this).find(":selected").data("dealername");
+				document.getElementById('dealer-text').textContent = selectedData;
+			}else{
+				document.getElementById('dealer-text').textContent = "전시장을 선택해주세요.";
+			}
+        });
+
+        // 소속딜러목록 세팅
+        function selectDealerUser(){
+            var selShrmCd = $("#dealer option:selected").val();
+
+            jQuery.ajax({
+                url		: '/lms/application/dealerUserListAjax.do'
+                ,method 	: 'get'
+                ,dataType 	: 'json'
+                ,async 		: true
+                ,data	: {
+                    shrmCd : selShrmCd
+                }
+                ,success : function(data) {
+                    if(data.dealerUserList){
+                        $('#dealerUser').html('');
+
+                        var list = data.dealerUserList;
+                        var html = "";
+
+                        html += '<option value="">딜러를 선택해주세요</option>';
+
+                        for(var i=0; i<list.length; i++){
+                            console.log('userId',  list[i].userId);
+                            html += '<option value="' + list[i].userId + '">' + list[i].userNm + '</option>';
+                        }
+
+                        $('#dealerUser').html(html);
+                    }
+                }
+            });
+        }
+
+        function completeClick(){
+
+            var etronName= "Q4 e-tron";
+
+            if($('#hopeCarCd').val() == 'etronQ4SbPreorder') etronName = "Q4 Sportback e-tron";
+
+
+            s.clearVars(); //s 변수를 초기화
+            s.pageName=etronName+"_preOrder_popup" //현재 페이지 이름. 이대로 삽입해주시면됩니다.
+            s.server="www.audikoreaevent.co.kr" //웹 페이지의 도메인으로, request 와confirm 모두 동일. 이대로 삽입해주시면 됩니다.
+            s.channel=etronName+"_preOrder" //사이트의 섹션으로, 이대로 삽입해주시면 됩니다.
+            s.linkTrackVars="prop4,prop48,prop55,prop56,prop57,eVar3,eVar5,eVar6,eVar7,eVar9,eVar15,eVar37,eVar48,eVar50,eVar75,eVar81,eVar82,eVar83,eVar84,eVar85,eVar86,eVar88"
+            s.linkTrackEvents="event981"
+            /* Traffic Variables */
+            s.prop4="D=v82" //클릭 이벤트 이름(eVar82 와 동일). 이대로 삽입해주시면 됩니다.
+            s.prop48="D=v48" //방문한 페이지의 도메인도시언어사이트속성앱이름앱버전(eVar48 과 동일). 이대로 삽입해주시면 됩니다.
+            s.prop55=_today; //이벤트가 발생한 날짜시간 ex) 2019-06-13 04:47 AM
+            s.prop56=utcDate3 + ", " + localDate; //이벤트가 발생한 UTCLocal 시간 ex) 7:00 AM;4:00 PM
+            s.prop57=_todayTimeStamp; //이벤트가 발생한 시간의 TimeStamp ex) 1560368871
+            /* Conversion Variables */
+            s.eVar3="1" //사이트 내에서 상호작용이 발생할 때마다 1 씩 증가 ex)1, 2, 3..
+            s.eVar5=etronName+"|preOrder|popup|no level" //현재 페이지의 콘텐츠15계층,최대 4 개 가능 ex)models|models/a4| models/a4/a4limo|no level
+            s.eVar6=document.location.href; //현재 페이지의 URL ex)https://www.audi.de/brand/de.html
+            s.eVar7=etronName+"_preOrder > 아우디 코리아" //현재 페이지의 제목 ex)A6 >A6 > 아우디 코리아
+            s.eVar9="preOrder" //현재 페이지의 유형 ex)standardPage,configurableHome
+            s.eVar15="Not Logged In" //로그인 여부 ex)Logged In, Not Logged In
+            s.eVar37=etronName+"/preorder" //현재 페이지(URL 기반) ex)homepage,user/resultlist
+            s.eVar48="dom|www.audi.co.kr;cc|KR;lang|ko;sa|productportal;app|cms;ver|75.4.0" //방문한 페이지의 도메인도시언어사이트속성앱이름앱버전. 이대로 삽입해주시면 됩니다.
+            s.eVar50=document.location.href.substring(0, document.location.href.indexOf("?")); //매개변수를 제외한 현재 페이지 URL ex)www.audi.co.kr/kr/web/ko.html
+            s.eVar75="D=mid" //Adobe 에서 부여한 방문자의 Marketing Cloud Id. 이대로삽입해주시면 됩니다.
+            s.eVar81="internal_link" //이벤트 액션 이름(클릭 시) ex)internal_link ..
+            s.eVar82="preOrder" //클릭 이벤트 이름 ex)Abmelden, Account, generic
+            s.eVar83=etronName+"/preorder" //클릭상호 작용이 발생한 페이지의 전체 경로 또는세분화된 식별값(클릭시) ex) homepage, models/q3/q3
+            s.eVar84=document.location.href; //클릭 이벤트가 발생한 페이지의 URL(도메인+경로이름)(클릭시)ex)www.audi.co.kr/kr/web/ko.html
+            if($('#hopeCarCd').val() == 'etronQ4SbPreorder')
+                s.eVar85="www.audi.co.kr/kr/web/ko/models/q4-e-tron/q4-sportback-e-tron.html" //사용자가 클릭 후 랜딩 되는 페이지의 URL(도메인+경로이름)(클릭시)ex)www.audi.co.kr/kr/web/ko.html
+            else
+                s.eVar85="www.audi.co.kr/kr/web/ko/models/q4-e-tron/q4-e-tron.html" //사용자가 클릭 후 랜딩 되는 페이지의 URL(도메인+경로이름)(클릭시)ex)www.audi.co.kr/kr/web/ko.html
+            s.eVar86="Audi e-tron GT 자세히보기" //클릭한 요소의 텍스트 값(클릭시) ex)Your Audi A4,자세히보기
+            s.eVar88="po|;en|;co|preOrder-popup;va" //클릭한 요소의정보(위치,이름,구성요소 이름,값)(클릭시) ex)po|;en|;co|main-navigation;va|
+            /* Success Events */
+            s.events="event981" //로컬 내 전체 발생 이벤트, 이대로만 삽입해주시면 됩니다.
+            s.tl(this, 'o', 'internal_link');
+
+            if($('#hopeCarCd').val() == 'etronQ4SbPreorder') location.href="https://www.audi.co.kr/kr/web/ko/models/q4-e-tron/q4-sportback-e-tron.html";
+            else location.href="https://www.audi.co.kr/kr/web/ko/models/q4-e-tron/q4-e-tron.html";
+        }
+
+        function getCommonCode(cd) {
+
+            let data = {
+                upCd : cd
+            };
+
+            jQuery.ajax({
+                url : "/lms/ajax/getCommonCode.do",
+                type : "post",
+                contentType: "application/json",
+                data : JSON.stringify(data),
+                dataType: "json",
+                success: function(data) {
+                    let html = "";
+
+                    if(cd == 'AKE03006') {
+                        for(let i = 0; i < data.length; i++) {
+                            html += "<option value='"+data[i].cd+"'>"+data[i].cdNm+"</option>";
+                        }
+
+                        $("#carBuyPlan").append(html);
+                    } else if(cd == 'AKE03007') {
+                        $("#selectCarBrand1").append(html);
+
+                        let carList = data.filter(car => car.cdNm !== "아우디");
+                        let html2 = "";
+                        for(let i = 0; i < carList.length; i++) {
+                            if(carList[i].cdNm == '미보유') {
+                                carList[i].cdNm = "미고려";
+                            }
+                            html2 += "<option value='"+carList[i].cd+"'>"+carList[i].cdNm+"</option>";
+                        }
+
+                        $("#selectCarBrand2").append(html2);
+                    }
+                }, error: function (e) {
+                    console.log('ERROR : ', e);
+                }
+            })
+        }
+
+    </script>
+    <script type="text/javascript" src="$!{CON_STATIC_URL}/js/shopHour.js"></script>
+    <!-- E:2019-08-14 시승신청 리뉴얼 스크립트-->
+
+    <!-- E:2019-08-14 시승신청 리뉴얼 -->
+</body>
+</html>
