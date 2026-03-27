@@ -856,6 +856,13 @@
                     </div>
                 </div> -->
 
+                <div class="btn-wrap" style="margin-top:0;">
+                    <a href="#none" id="submit" class="btn-spec" onclick="javascript:layerPopUp({selId:'#pop7'});">
+                        제원 알아보기
+                        <img src="./assets/img/paper-overlapping-two.png" alt="" class="icon">
+                    </a>
+                </div>
+
                 <div class="title-wrap">
                     <!-- 2024-01-25 수정 -->
                     <h2 class="title">전시장 선택 <span class="asterisk">*</span>
@@ -1645,6 +1652,58 @@
 <!--//사전 계약신청-->
 </div>
 
+<!-- 제원 알아보기 -->
+    <div class="pop-layer type2" id="pop7">
+        <div class="bg"></div>
+        <div class="layer-wrap">
+
+            <div class="layer-content">
+                <h3 class="title">제원표</h3>
+
+                <div class="table-wrap">
+                    <table>
+                    <thead>
+                        <tr>
+                        <th>Model</th>
+                        <th>A6 40 TFSI</th>
+                        <th>A6 45 TFSI<br>quattro</th>
+                        <th>A6 55 TFSI<br>quattro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th>최고 출력<br>(PS/rpm)</th>
+                        <td>203.9 /<br>4,500-6,500</td>
+                        <td>271.9 /<br>5,000-6,500</td>
+                        <td>367 /<br>5,500-6,300</td>
+                        </tr>
+                        <tr>
+                        <th>구동 방식</th>
+                        <td>전륜구동</td>
+                        <td colspan="2">사륜구동 (quattro)</td>
+                        </tr>
+                        <tr>
+                        <th>변속기</th>
+                        <td colspan="3">자동 7단</td>
+                        </tr>
+                        <tr>
+                        <th>전장/전폭<br>(mm)</th>
+                        <td colspan="3">5,000 / 1,875</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+
+                
+            </div>
+            <!-- <div class="btn-wrap">
+                <a href="javascript:completeClick();">닫기</a>
+            </div> -->
+            <a href="javascript:location.reload();" class="btn-close">닫기</a>
+        </div>
+    </div>
+    <!--//제원 알아보기->
+
 <script type="text/javascript">
 
 
@@ -2301,7 +2360,6 @@
             $el.css('transform', 'translateY(0)');
         });
     }
-
 </script>
 
 </body>
