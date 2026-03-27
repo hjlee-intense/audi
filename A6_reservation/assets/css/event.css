@@ -2500,13 +2500,32 @@ body {
     .inner-cont2 {
         background-color: #F5F5F7;
     }
-    .tab-content {
+    /* .tab-content {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.4s ease;
         display: none;
-    }
-
-    /* 활성 */
+    }    
     .tab-content.active {
         display: block;
+    }
+    .tab-content.show {
+        opacity: 1;
+        transform: translateY(0);
+    } */
+
+    .tab-content {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: none;
+    }
+
+    .tab-content.active {
+    display: block;
+    }
+
+    .tab-content.show {
+    opacity: 1;
     }
 
     /* 카드 */
@@ -2544,7 +2563,6 @@ body {
     .cardlist2 .slick-slide {
         display:flex;
         flex-wrap: wrap;        
-        gap:20px;
     }    
     
     .cardlist2 .slick-slide > h3.subtitle {
@@ -2666,7 +2684,7 @@ body {
   .inner-cont2 {
     margin-top: 50px;
     margin-bottom:30px;
-  }
+  }  
   .card img {
     aspect-ratio: 339 / 190;
   }
