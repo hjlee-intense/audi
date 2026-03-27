@@ -341,6 +341,11 @@
         </div>
     </section>
     // 2024-10-31 수정 -->
+
+    <a href="#none" class="btn-floating">
+        등록<br>신청
+    </a>
+
     <section class="a6-mo-section01">
         <div class="inner-cont1">
             <div>
@@ -863,7 +868,7 @@
                     </a>
                 </div>
 
-                <div class="title-wrap">
+                <div id="showroomSection" class="title-wrap">
                     <!-- 2024-01-25 수정 -->
                     <h2 class="title">전시장 선택 <span class="asterisk">*</span>
                     	<p class="guide">*선택 딜러사: <span id="dealer-text">전시장을 선택해주세요.</span></p>
@@ -2360,6 +2365,29 @@
             $el.css('transform', 'translateY(0)');
         });
     }
+
+    document.querySelector('.btn-floating').addEventListener('click', function() {
+        document.getElementById('showroomSection').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+    const button = document.querySelector('.btn-floating');
+    const target = document.getElementById('showroomSection');
+
+    window.addEventListener('scroll', function () {
+        const rect = target.getBoundingClientRect();
+
+        if (rect.top > window.innerHeight) {
+            // 전시장 영역이 아직 아래 있음 (도달 전)
+            button.style.opacity = '1';
+            button.style.pointerEvents = 'auto';
+        } else {
+            // 전시장 보이거나 지나간 상태
+            button.style.opacity = '0';
+            button.style.pointerEvents = 'none';
+        }
+    });
 </script>
 
 </body>
