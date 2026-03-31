@@ -2481,7 +2481,6 @@ body {
 
     .a6-section01 {
         color:#000;
-        margin-top:60px;
     }
     .a6-section01 .title {        
         font-size: 30px;
@@ -2897,3 +2896,31 @@ body {
 }
 
   /* #endregion A6 - MO */
+
+/* 키비쥬얼 하단 안내 문구 스타일 */
+.visual-notice {
+    width: 100%;
+    max-width: 990px; /* 상단 헤더 및 본문 폭과 통일 */
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: left;
+}
+
+.visual-notice p {
+    font-size: 13px;
+    font-family: Audi type, "Noto Sans KR", sans-serif;
+    color: #666;
+    letter-spacing: -0.5px;
+    line-height: 1.4;
+}
+
+/* 모바일 대응 */
+@media screen and (max-width: 768px) {
+    .visual-notice {
+        padding: 10px 18px;
+        text-align: left; 
+    }
+    .visual-notice p {
+        font-size: 11px;
+    }
+}
