@@ -1562,6 +1562,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
+  .pc {display:none;}
+  .mo {display:block;}
+
+  
+  .type-q6 .event-header .logo img {
+    width:96px;
+    height:32px;
+  }
   .font-bold {
     font-weight: bold;
   }
@@ -2036,7 +2045,7 @@ body {
 
   .type-q6 .event-header {
     width: 100%;
-    height: 137px;
+    height: 60px;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
@@ -2051,13 +2060,16 @@ body {
     font-size: 23px;
     font-weight: bold;
   }
-  .type-q6 .event-header .logo {
-    /* padding-top: 15px; */
+  /* .type-q6 .event-header .logo {
+    
     text-align: right;
     position: absolute;
     top:20px;
     right:16px;  
-  }
+  } */
+   .type-q6 .event-header .logo {
+    padding-top:0;
+   }
   .notice-text {
     margin-bottom: 15px;
     font-size: 14px;
@@ -2503,7 +2515,7 @@ body {
         font-weight: 400;
         line-height: 120%;
         letter-spacing: -1px;
-        background: #494949;
+        background: #FF0019;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.40);
     }
     #showroomSection {
@@ -2802,7 +2814,7 @@ body {
     letter-spacing: -0.65px;
     line-height:120%;
     right:15px;
-    bottom:15px;
+    bottom:40px;
   }
 
   .tabs.tab-slider {
@@ -2833,7 +2845,7 @@ body {
     color: #fff;
   }
   .inner-cont2 {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom:30px;
   }  
   .card img {
