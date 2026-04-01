@@ -2273,7 +2273,6 @@
             $currentTab.addClass('show');
         }, 20);
         
-
         // 🔥 slick 대상
         var $slider = $currentTab.find('.slick-slider');
 
@@ -2305,7 +2304,12 @@
 
     // initSlider
     function initSlider($slider) {
-        if (!$slider.hasClass('slick-initialized')) {
+
+        var isInitialized = $slider.hasClass('slick-initialized');
+        var isBroken = $slider.find('.slick-track').width() === 0;
+
+        if (!isInitialized) {
+            console.log('init');
             $slider.slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -2317,10 +2321,25 @@
                 speed: 500,
                 cssEase: 'ease'
             });
+
+        } else if (isBroken) {
+            $slider.slick('unslick');
+            $slider.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+                arrows: true,
+                prevArrow: '<button class="slick-prev custom-prev"></button>',
+                nextArrow: '<button class="slick-next custom-next"></button>',
+                dots: false,
+                speed: 500,
+                cssEase: 'ease'
+            });
+
         } else {
             $slider.slick('setPosition');
         }
-    }    
+    }
 
     // 텍스트 변경 
     function changeSubtitle(text) {
